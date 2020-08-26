@@ -10,4 +10,4 @@ app.use(cors());
 app.use("/movies", movieRoutes);
 app.use("/categories", categoriesRoutes);
 
-app.listen(8080, () => console.log("Server started at port 8008"));
+app.listen(8080, () => console.log("Server started at port 8080"));
