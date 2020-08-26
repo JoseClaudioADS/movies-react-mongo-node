@@ -1,0 +1,1 @@
+docker run --name mongo-locadora -p 27017:27017 -e MONGO_INITDB_DATABASE=video-locadora -d  mongo:latest
